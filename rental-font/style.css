@@ -1,0 +1,179 @@
+@font-face {
+	font-family: 'rental-font';
+	src:url('fonts/rental-font.eot?-8wkyex');
+	src:url('fonts/rental-font.eot?#iefix-8wkyex') format('embedded-opentype'),
+		url('fonts/rental-font.woff?-8wkyex') format('woff'),
+		url('fonts/rental-font.ttf?-8wkyex') format('truetype'),
+		url('fonts/rental-font.svg?-8wkyex#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'rental-font';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-airport:before {
+	content: "\e600";
+}
+
+.icon-parking:before {
+	content: "\e601";
+}
+
+.icon-taxi:before {
+	content: "\e602";
+}
+
+.icon-swiming-pool-indoor .path1:before {
+	content: "\e603";
+	color: rgb(0, 0, 0);
+}
+.icon-swiming-pool-indoor .path2:before {
+	content: "\e604";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+.icon-swiming-pool-indoor .path3:before {
+	content: "\e605";
+	margin-left: -1em;
+	color: rgb(19, 17, 12);
+}
+.icon-swiming-pool-indoor .path4:before {
+	content: "\e606";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+.icon-swiming-pool-indoor .path5:before {
+	content: "\e607";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+
+.icon-swiming-pool .path1:before {
+	content: "\e608";
+	color: rgb(0, 0, 0);
+}
+.icon-swiming-pool .path2:before {
+	content: "\e609";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+.icon-swiming-pool .path3:before {
+	content: "\e60a";
+	margin-left: -1em;
+	color: rgb(1, 1, 1);
+}
+.icon-swiming-pool .path4:before {
+	content: "\e60b";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+
+.icon-bed:before {
+	content: "\e60c";
+}
+.icon-swiming-pool .path1:before {
+	content: "\e608";
+	color: rgb(0, 0, 0);
+}
+.icon-swiming-pool .path2:before {
+	content: "\e609";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+.icon-swiming-pool .path3:before {
+	content: "\e60a";
+	margin-left: -1em;
+	color: rgb(1, 1, 1);
+}
+.icon-swiming-pool .path4:before {
+	content: "\e60b";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+
+.icon-wifi:before {
+	content: "\e60d";
+}
+.icon-swiming-pool .path1:before {
+	content: "\e608";
+	color: rgb(0, 0, 0);
+}
+.icon-swiming-pool .path2:before {
+	content: "\e609";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+.icon-swiming-pool .path3:before {
+	content: "\e60a";
+	margin-left: -1em;
+	color: rgb(1, 1, 1);
+}
+.icon-swiming-pool .path4:before {
+	content: "\e60b";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+
+.icon-airco .path1:before {
+	content: "\e60e";
+	color: rgb(1, 1, 1);
+}
+.icon-airco .path2:before {
+	content: "\e60f";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+.icon-airco .path3:before {
+	content: "\e610";
+	margin-left: -1em;
+	color: rgb(1, 1, 1);
+}
+
+.icon-bath:before {
+	content: "\e611";
+}
+.icon-airco .path1:before {
+	content: "\e60e";
+	color: rgb(1, 1, 1);
+}
+.icon-airco .path2:before {
+	content: "\e60f";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+.icon-airco .path3:before {
+	content: "\e610";
+	margin-left: -1em;
+	color: rgb(1, 1, 1);
+}
+
+.icon-shower:before {
+	content: "\e612";
+}
+.icon-airco .path1:before {
+	content: "\e60e";
+	color: rgb(1, 1, 1);
+}
+.icon-airco .path2:before {
+	content: "\e60f";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+.icon-airco .path3:before {
+	content: "\e610";
+	margin-left: -1em;
+	color: rgb(1, 1, 1);
+}
+
