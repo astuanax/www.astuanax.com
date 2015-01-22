@@ -16,8 +16,8 @@ document.body.addEventListener("click", function(e) {
 		testText = document.getElementById('testText');
 	function updateTest() {
 		testDrive.innerHTML = testText.value || String.fromCharCode(160);
-		if (window.icomoonLiga) {
-			window.icomoonLiga(testDrive);
+		if (window.rental-fontLiga) {
+			window.rental-fontLiga(testDrive);
 		}
 	}
 	function updateSize() {
