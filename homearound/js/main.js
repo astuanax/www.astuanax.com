@@ -6,7 +6,7 @@ requirejs.config({
         'jquery': ['//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min'],
         'bootstrap': ['//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min'],
         'webfont' : ['//ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont'],
-        'slick' : ['/homearound/js/bower_components/slick-carousel/slick/slick'],
+        'slick' : ['/homearound/js/bower_components/slick-carousel/slick/slick.min'],
         'chosen' : ['/homearound/js/bower_components/chosen/chosen.jquery'],
         'bootstrap-datepicker' : ['/homearound/js/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min'],
     },

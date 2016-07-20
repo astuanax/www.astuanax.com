@@ -12,7 +12,7 @@ gulp.task('minify', function() {
 
 
 gulp.task('optimise', () =>
-    gulp.src('./_site/img/*')
+    gulp.src('./_site/img/**/*')
         .pipe(imagemin())
         .pipe(gulp.dest('./_site/img'))
 );
