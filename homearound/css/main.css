@@ -7,6 +7,102 @@
 /*
 Additional variables
 */
+.ha-overview {
+  background-position: 50% 50%;
+  background-size: cover;
+  position: relative; }
+  .ha-overview-item {
+    padding: 32px 0; }
+    .ha-overview-item-block {
+      background-color: rgba(255, 255, 255, 0.85);
+      padding: 16px; }
+      .ha-overview-item-block h1 {
+        font-size: 24px;
+        color: #ba1010; }
+      .ha-overview-item-block .lead {
+        color: #ba1010;
+        font-style: italic; }
+      .ha-overview-item-block p {
+        font-size: 18px;
+        font-weight: 300; }
+    @media (min-width: 768px) {
+      .ha-overview-item-block {
+        margin: 64px;
+        width: 40%; }
+        .ha-overview-item-block h1 {
+          font-size: 30px; } }
+
+.ha-pagination {
+  text-align: center; }
+
+.pagination-lg > li > a, .pagination-lg > li > span {
+  padding: 6px 12px;
+  font-size: 12px;
+  line-height: 1.33333;
+  margin: 0 4px; }
+
+@media (min-width: 768px) {
+  .ha-pagination {
+    text-align: left; }
+
+  .pagination-lg > li > a, .pagination-lg > li > span {
+    padding: 15px 20px;
+    font-size: 15px;
+    line-height: 1.33333;
+    margin: 0 8px; } }
+.ha-sort {
+  padding-top: 22px; }
+  .ha-sort-label {
+    padding-top: 36px; }
+.ha-result {
+  background-color: #fefef6;
+  border: 1px solid #eeeeee;
+  padding: 0 16px 8px 16px;
+  margin-bottom: 16px; }
+  .ha-result .ha-caption {
+    position: absolute;
+    margin: 0 15px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 8px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-weight: 400; }
+    .ha-result .ha-caption a {
+      color: #fefef6; }
+.ha-discount {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: right; }
+.ha-p-price {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+  position: relative; }
+.ha-p-range {
+  font-size: 12px;
+  font-weight: 400; }
+@media (min-width: 768px) {
+  .ha-p-range {
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    width: 50px;
+    bottom: -16px;
+    right: 0; } }
+.ha-p-name {
+  margin: 0 0 16px 0;
+  font-size: 28px; }
+.ha-location {
+  font-size: 16px;
+  font-weight: 300; }
+.ha-star {
+  height: 24px;
+  width: 24px; }
+.ha-description {
+  font-weight: 500; }
+
 body, html {
   height: 100%; }
 
@@ -14,7 +110,6 @@ body {
   -webkit-font-smoothing: subpixel-antialiased;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fefef6;
   font-weight: 200; }
 
 section {
@@ -344,6 +439,18 @@ a:hover .swap-div1, .swap-div2 {
   width: 400px;
   height: 400px; }
 
+@media (max-width: 992px) {
+  .md-padding {
+    padding: 4px 0; } }
+@media (max-width: 768px) {
+  .sm-padding {
+    padding: 8px 0; } }
+@media (max-width: 480px) {
+  .xs-padding {
+    padding: 16px 0; }
+
+  .xs-center {
+    text-align: center; } }
 /* helpers*/
 /* ha-carousel-property*/
 .ha-carousel-property .ha-item {

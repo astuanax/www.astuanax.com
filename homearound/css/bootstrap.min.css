@@ -4104,7 +4104,7 @@ tbody.collapse.in {
       line-height: 1.42857;
       text-decoration: none;
       color: #ba1010;
-      background-color: #fff;
+      background-color: #fefef6;
       border: 1px solid #ddd;
       margin-left: -1px; }
     .pagination > li:first-child > a,
@@ -4187,7 +4187,7 @@ tbody.collapse.in {
     .pager li > span {
       display: inline-block;
       padding: 5px 14px;
-      background-color: #fff;
+      background-color: #fefef6;
       border: 1px solid #ddd;
       border-radius: 15px; }
     .pager li > a:hover,
@@ -4205,7 +4205,7 @@ tbody.collapse.in {
   .pager .disabled > a:focus,
   .pager .disabled > span {
     color: #777777;
-    background-color: #fff;
+    background-color: #fefef6;
     cursor: not-allowed; }
 
 .label {
