@@ -8,7 +8,8 @@ requirejs.config({
         'webfont' : ['//ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont'],
         'slick' : ['/homearound/js/bower_components/slick-carousel/slick/slick.min'],
         'chosen' : ['/homearound/js/bower_components/chosen/chosen.jquery'],
-        'bootstrap-datepicker' : ['/homearound/js/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min'],
+        'bootstrapdatepicker' : ['/homearound/js/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min'],
+        'bootstrapslider': ['/homearound/js/bower_components/seiyria-bootstrap-slider/dist/bootstrap-slider.min'],
     },
     shim: {
         /* Set bootstrap dependencies (just jQuery) */
@@ -27,7 +28,7 @@ var w = window,
 
 if (x < 600){
 /*require*/
-    require(['webfont', 'jquery', 'bootstrap', 'slick', 'chosen'], function(webfont, jquery, bootstrap, slick, chosen){
+    require(['webfont', 'jquery', 'bootstrap', 'slick', 'chosen', 'bootstrapslider'], function(webfont, jquery, bootstrap, slick, chosen, bootstrapslider){
         webfont.load({
            google: {
              families: ['Open Sans','Cinzel',]
@@ -57,16 +58,15 @@ if (x < 600){
                $('.slick-current h1').addClass('invisible').removeClass('animated fadeInDown');
            })
          });         
-         $("select").chosen();
-         $('.daterange').find(".actual_range").attr("type", "date");
-
+         $('select').chosen();
+         $('.daterange').find('.actual_range').attr('type', 'date');
     });
 /*require*/
 }
 else{
 
 /*require*/
-    require(['webfont', 'jquery', 'bootstrap', 'slick', 'chosen', 'bootstrap-datepicker'], function(webfont, jquery, bootstrap, slick, chosen){
+    require(['webfont', 'jquery', 'bootstrap', 'slick', 'chosen', 'bootstrapdatepicker', 'bootstrapslider'], function(webfont, jquery, bootstrap, slick, chosen, bootstrapdatepicker, bootstrapslider){
         webfont.load({
            google: {
              families: ['Open Sans','Cinzel',]
@@ -134,8 +134,7 @@ else{
          })
          
          $("select").chosen();
-
-
+     
          $('.daterange').datepicker({
                  keepEmptyValues: true,
                  language : 'fr',
@@ -148,6 +147,8 @@ else{
                  from = e.date.getTime()
                  to = e.date.getTime()
              });
+
+         $("#ex2").slider({});
 
     });
 /*require*/
