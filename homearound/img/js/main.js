@@ -160,7 +160,7 @@ else{
              
          } 
          
-         $('.active .                <div class="col-xs-2 col-sm-4 col-md-2">').slick({
+         $('.active .ha-carousel-property').slick({
              dots: true,
              infinite: true,
              speed: 600,

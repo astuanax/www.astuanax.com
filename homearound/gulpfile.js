@@ -44,5 +44,11 @@ gulp.task('copy', ['minify', 'compress', 'optimise'],  function() {
 });
 
 
+gulp.task('copyonly',  function() {
+   return gulp.src('./_site/**')
+   .pipe(gulp.dest('/Volumes/BigOne/github/astuanax.github.io/homearound'));
+});
+
+
 
 gulp.task('build', ['copy']);
