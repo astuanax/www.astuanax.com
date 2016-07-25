@@ -160,36 +160,38 @@ else{
              
          } 
          
-         $('.active .ha-carousel-property').slick({
-             dots: true,
-             infinite: true,
-             speed: 600,
-             cssEase: 'linear',
-             useTransform: true,
-             slidesToShow: 3,
-         })
-         $('.ha-property .ha-carousel-property').slick({
-             dots: true,
-             infinite: true,
-             speed: 600,
-             cssEase: 'linear',
-             useTransform: true,
-             slidesToShow: 3,
-             responsive: [
-                 {
-                   breakpoint: 768,
-                   settings: {
-                     slidesToShow: 1,
-                   }
-                 },
-                 {
-                   breakpoint: 992,
-                   settings: {
-                     slidesToShow: 2,
-                   }
-                 },992
-             ]
-         })
+         // $('.active .ha-carousel-property').slick({
+         //     dots: true,
+         //     infinite: true,
+         //     speed: 600,
+         //     cssEase: 'linear',
+         //     useTransform: true,
+         //     slidesToShow: 3,
+         // })
+         if( $('.active .ha-carousel-property').length ){
+             $('.active .ha-carousel-property').slick({
+                 dots: true,
+                 infinite: true,
+                 speed: 600,
+                 cssEase: 'linear',
+                 useTransform: true,
+                 slidesToShow: 3,
+                 responsive: [
+                     {
+                       breakpoint: 768,
+                       settings: {
+                         slidesToShow: 1,
+                       }
+                     },
+                     {
+                       breakpoint: 992,
+                       settings: {
+                         slidesToShow: 2,
+                       }
+                     },992
+                 ]
+             })
+         }
          
          
          $("select").chosen();
@@ -209,17 +211,20 @@ else{
 
          $("#ex2").slider({});
 
-         map = new GMaps({
-                 div: '#gmap',
-                 lat: -8.679680,
-                 lng: 115.170058,
-                 scrollwheel:  false
-               });
-               map.addMarker({
+         if( $("#gmap").length ){
+             map = new GMaps({
+                     div: '#gmap',
                      lat: -8.679680,
                      lng: 115.170058,
-                      icon: "/homearound/img/ha-marker.png"
-               });
+                     scrollwheel:  false
+                   });
+                   map.addMarker({
+                         lat: -8.679680,
+                         lng: 115.170058,
+                          icon: "/homearound/img/ha-marker.png"
+                   });
+
+         }
 
     });
 /*require*/
